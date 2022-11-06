@@ -27,98 +27,98 @@ body {
   font-family: "Poppins", sans-serif;
   justify-content: center;
 }
-section .first-partie {
+.login .first-partie {
   padding: 50px 0;
 }
-section .first-partie h2 {
+.login .first-partie h2 {
   font-weight: 700px;
   font-size: 30px;
   color: var(--blue);
   padding-bottom: 40px;
 }
-section .first-partie form .input {
+.login .first-partie form .input {
   display: flex;
   flex-direction: column;
   padding-bottom: 25px;
 }
-section .first-partie form .input input[type="email"],
-section .first-partie form .input input[type="password"] {
+.login .first-partie form .input input[type="email"],
+.login .first-partie form .input input[type="password"] {
   padding: 15px;
   border-radius: 10px;
   border: 1px solid var(--grey);
   font-size: 15px;
   color: var(--blue);
 }
-section .first-partie form .input input::placeholder {
+.login .first-partie form .input input::placeholder {
   font-size: 12px;
   font-weight: 400;
   color: var(--grey);
 }
-section .first-partie form .input label {
+.login .first-partie form .input label {
   font-size: 16px;
   font-weight: 500;
   color: var(--grey);
   padding-bottom: 15px;
 }
-section .first-partie form .input label span,
-section .first-partie form .input label span a {
+.login .first-partie form .input label span,
+.login .first-partie form .input label span a {
   float: right;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   color: var(--yellow);
 }
-section .first-partie form button {
+.login .first-partie form button {
   padding: 14px;
   width: 100%;
   border-radius: 10px;
   background: var(--yellow);
   border: 1px solid var(--yellow);
 }
-section .first-partie form button a {
+.login .first-partie form button a {
   font-size: 16px;
   font-weight: 600;
   color: var(--white);
   text-decoration: none;
 }
-section .first-partie h5 {
+.login .first-partie h5 {
   font-weight: 500;
   font-size: 15px;
   text-align: center;
   color: var(--blue);
   padding: 20px 0;
 }
-section .first-partie button {
+.login .first-partie button {
   padding: 14px;
   width: 100%;
   border-radius: 10px;
   border: 1px solid var(--grey);
   background: var(--white);
 }
-section .first-partie button a {
+.login .first-partie button a {
   font-size: 14px;
   font-weight: 600;
   color: var(--black);
   text-decoration: none;
 }
-section .first-partie p {
+.login .first-partie p {
   text-align: center;
   padding-top: 15px;
   font-weight: 500;
   font-size: 14px;
   color: var(--grey);
 }
-section .first-partie p a {
+.login .first-partie p a {
   text-decoration: none;
   color: var(--yellow);
 }
-section .second-partie {
+.login .second-partie {
   margin-left: 5rem;
   background: #046b87;
   height: 48.1vmax;
   padding: 15px 50px 0 50px;
 }
-section .second-partie h1 {
+.login .second-partie h1 {
   font-weight: 600;
   font-size: 26px;
   line-height: 34px;
@@ -126,23 +126,23 @@ section .second-partie h1 {
   padding-bottom: 15px;
   color: var(--white);
 }
-section .second-partie h1 span {
+.login .second-partie h1 span {
   color: var(--yellow);
 }
-section .second-partie h4 {
+.login .second-partie h4 {
   font-weight: 500;
   color: var(--grey);
   font-size: 15px;
   padding-bottom: 20px;
 }
-section .second-partie .icone {
+.login .second-partie .icone {
   display: flex;
   align-items: center;
   column-gap: 25px;
   margin-left: 20px;
   padding-bottom: 30px;
 }
-section .second-partie .google-play-app-store {
+.login .second-partie .google-play-app-store {
   display: flex;
   column-gap: 10px;
   align-items: center;
@@ -151,46 +151,46 @@ section .second-partie .google-play-app-store {
   padding: 8px;
   border: none;
 }
-section .second-partie .google-play-app-store img {
+.login .second-partie .google-play-app-store img {
   width: 28px;
 }
-section .second-partie .google-play-app-store .app-store {
+.login .second-partie .google-play-app-store .app-store {
   width: 23px;
 }
-section .second-partie .google-play-app-store .para {
+.login .second-partie .google-play-app-store .para {
   line-height: 15px;
   color: var(--white);
 }
-section .second-partie .google-play-app-store .para h5 {
+.login .second-partie .google-play-app-store .para h5 {
   font-size: 11px;
   font-weight: 500;
 }
-section .second-partie .google-play-app-store .para h2 {
+.login .second-partie .google-play-app-store .para h2 {
   font-size: 15px;
   font-weight: 600;
 }
-section .second-partie .angle i {
+.login .second-partie .angle i {
   font-size: 18px;
   cursor: pointer;
 }
-section .second-partie .angle .fa-angle-left {
+.login .second-partie .angle .fa-angle-left {
   padding: 4px 7px;
   border-radius: 30px;
   background: var(--white);
   color: var(--black);
 }
-section .second-partie .angle .fa-angle-right {
+.login .second-partie .angle .fa-angle-right {
   margin-left: 12px;
   padding: 4px 7px;
   border-radius: 30px;
   background: #298097;
   color: var(--black);
 }
-section .second-partie img {
+.login .second-partie img {
   width: 330px;
   object-fit: cover;
 }
-section .second-partie .ibank_care img {
+.login .second-partie .ibank_care img {
   width: 120px;
   float: right;
 }
