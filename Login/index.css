@@ -74,12 +74,9 @@ body {
   border-radius: 10px;
   background: var(--yellow);
   border: 1px solid var(--yellow);
-}
-.login .first-partie form button a {
   font-size: 16px;
   font-weight: 600;
   color: var(--white);
-  text-decoration: none;
 }
 .login .first-partie h5 {
   font-weight: 500;
