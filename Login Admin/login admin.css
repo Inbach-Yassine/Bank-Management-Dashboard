@@ -1,0 +1,63 @@
+@import "/password/password.css";
+@import "/Login/index.css";
+body{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+}
+.login-admin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 85px 0;
+}
+.login-admin .card{
+    box-shadow: 0 0.2rem 1rem var(--grey);
+    padding: 35px 50px;
+    border-radius: 20px;
+}
+.login-admin form{
+    padding-top: 20px;
+}
+.login-admin form .input{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.login-admin form .input label{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--grey);
+    padding-bottom: 10px;
+    text-align: start;
+}
+.login-admin form .input input{
+    width: 350px;
+}
+.login-admin .input input[type="email"],
+.login-admin form .input input[type="password"]
+{
+    padding: 13px;
+    border-radius: 10px;
+    border: 1px solid var(--grey);
+    font-size: 15px;
+    color: var(--blue);
+}
+.login-admin .input  input::placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--grey);
+}
+.login-admin button {
+    padding: 14px;
+    width: 100%;
+    border-radius: 10px;
+    background: var(--yellow);
+    border: 1px solid var(--yellow);
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--white);
+    cursor: pointer;
+    margin-top: 20px;
+  }
