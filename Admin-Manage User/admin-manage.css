@@ -5,6 +5,8 @@ body {
   width: 100%;
   margin: 0 auto;
   font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: baseline;
 }
 :root {
   --red: #e72625e5;
@@ -116,7 +118,47 @@ body {
 .parent .log-out {
   padding-top: 55px;
 }
-.parent .log-out a:hover {
+.parent .log-out a:hover,
+.url-https .icone i:hover {
   color: var(--yellow);
   transform: scale(1.1);
+}
+.url-https {
+  margin: 0 60px;
+  max-width: max-content;
+  display: flex;
+  align-items: center;
+}
+.url-https form {
+  display: flex;
+  align-items: center;
+  background: #f4f6fa;
+  padding: 0 15px;
+  border-radius: 17px;
+}
+.url-https form .input input[type="search"] {
+  padding: 10px;
+  margin-left: 5px;
+  width: 700px;
+  background: #f4f6fa;
+  border: none;
+  outline: none;
+}
+.url-https form .input input::placeholder {
+  font-weight: 400;
+  color: var(--black);
+  font-size: 12px;
+}
+.url-https form .font {
+  font-size: 12px;
+  color: var(--grey);
+}
+.url-https .icone {
+  margin-left: 2rem;
+}
+.url-https .icone i {
+  padding: 0 8px;
+  font-size: 17px;
+  color: var(--blue);
+  cursor: pointer;
 }
