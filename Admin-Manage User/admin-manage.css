@@ -126,6 +126,9 @@ body {
 .url-https {
   margin: 0 60px;
   max-width: max-content;
+  
+}
+.url-https .position{
   display: flex;
   align-items: center;
 }
@@ -161,4 +164,20 @@ body {
   font-size: 17px;
   color: var(--blue);
   cursor: pointer;
+}
+.url-https .container-box{
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 0 15px 20px;
+}
+.url-https .container-box .box h2{
+  font-weight: 600;
+  font-size: 15px;
+  color:#034B5E;
+  padding-bottom: 10px;
+}
+.url-https .container-box .box h3{
+  font-weight: 400;
+  font-size: 13px;
+  color: #919499;
 }
