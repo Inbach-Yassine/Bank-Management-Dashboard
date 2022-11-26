@@ -96,7 +96,7 @@ body {
   font-size: 15px;
   color: var(--black);
   text-decoration: none;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   display: flex;
   align-items: center;
 }
@@ -116,7 +116,7 @@ body {
   margin-bottom: 25px;
 }
 .parent .log-out {
-  padding-top: 55px;
+  padding-top: 3rem;
 }
 .parent .log-out a:hover,
 .url-https .icone i:hover {
@@ -228,4 +228,64 @@ body {
   font-size: 12px;
   margin-left: 8px;
   color: var(--black);
+}
+.url-https .border{
+  border: 2px solid #C4C4C480;
+  margin: 25px;
+  border-radius: 15px;
+}
+.url-https .content{
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2.5rem;
+}
+.url-https .content .list-information{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: 25px;
+}
+.url-https .content .list-information h2{
+  font-size: 17px;
+  font-weight: 600;
+  color: #298097;
+}
+.url-https .content .list-information p{
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--black);
+}
+.url-https .content .list-information p span{
+  color: var(--grey);
+  font-size: 12px;
+  font-weight: 500;
+}
+.url-https .content .list-information .fa-caret-right{
+  color: var(--blue);
+  margin-top: 10px;
+}
+.url-https .scrool{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 13px;
+  padding-bottom: 20px;
+}
+.url-https .scrool p{
+  font-weight: 600;
+  font-size: 17px;
+  background: #EFF2F2;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.url-https .scrool p:hover{
+  background-color: var(--yellow);
+  color: var(--white);
+}
+.url-https .scrool p:nth-child(1){
+  background-color: var(--yellow);
+  color: var(--white);
 }
