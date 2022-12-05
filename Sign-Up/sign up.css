@@ -1,107 +1,104 @@
 @import url("/Login/index.css");
-body{
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
-    font-family: "Poppins", sans-serif;
+body {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
 }
-.login .first-partie{
-    padding: 0px;
+.login .first-partie {
+  padding: 0px;
 }
 .login .first-partie h2 {
-    padding-bottom: 0px;
+  padding-bottom: 0px;
 }
 .login .first-partie form .first-input,
-.login .first-partie form .second-input .input-2{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 10px;
+.login .first-partie form .second-input .input-2 {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
 }
 .login .first-partie form .first-input span,
-.login .first-partie form .second-input .input-2 span{
-    color: red;
-    font-size: 11px;
+.login .first-partie form .second-input .input-2 span {
+  color: red;
+  font-size: 11px;
 }
 .login .first-partie form .first-input label,
-.login .first-partie form .second-input .input-2 label{
-    font-size: 16px;
-    font-weight: 500;
-    color: var(--grey);
-    padding-bottom: 6px;
+.login .first-partie form .second-input .input-2 label {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--grey);
+  padding-bottom: 6px;
 }
 .login .first-partie form .first-input input[type="text"],
 .login .first-partie form .second-input .input-2 input[type="date"],
 .login .first-partie form .second-input .input-2 input[type="number"],
 .login .first-partie form .second-input .input-2 input[type="text"],
-.login .first-partie form .second-input .input-2 input[type="password"]
-{
+.login .first-partie form .second-input .input-2 input[type="password"] {
   padding: 10px;
   border-radius: 10px;
   border: 1px solid var(--grey);
   font-size: 15px;
   color: var(--blue);
 }
-.login .first-partie form .second-input .input-2 input[type="date"]
-{
-    width: 208px;
+.login .first-partie form .second-input .input-2 input[type="date"] {
+  width: 208px;
 }
-.login .first-partie form .first-input textarea
-{
-    height: 80px;
-    resize: none;
-    font-size: 14px;
-    font-weight: 400;
-    color: var(--grey);
-    padding: 8px 13px;
+.login .first-partie form .first-input textarea {
+  height: 80px;
+  resize: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--grey);
+  padding: 8px 13px;
 }
 .login .first-partie form .first-input input::placeholder,
-.login .first-partie form .second-input .input-2 input::placeholder{
-    font-size: 12px;
-    font-weight: 400;
-    color: var(--grey);
+.login .first-partie form .second-input .input-2 input::placeholder {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--grey);
 }
-.login .first-partie form .second-input{
-display: flex;
-column-gap: 20px;
+.login .first-partie form .second-input {
+  display: flex;
+  column-gap: 20px;
 }
-.login .first-partie form .second-input:nth-of-type(1){
-    display: flex;
-    justify-content: center;
+.login .first-partie form .second-input:nth-of-type(1) {
+  display: flex;
+  justify-content: center;
 }
-.login .first-partie button{
-    padding: 10px;
-    width: 100%;
-    border-radius: 10px;
-    background: var(--yellow);
-    border: 1px solid var(--yellow);
-    font-size: 16px;
-    font-weight: 600;
-    color: var(--white);
+.login .first-partie button {
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  background: var(--yellow);
+  border: 1px solid var(--yellow);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--white);
 }
-.login .second-partie .avatars{
-    display: flex;
-    justify-content:start;
-    align-items: center;
-padding-bottom: 30px;
+.login .second-partie .avatars {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-bottom: 30px;
 }
-.login .second-partie .avatars img:not(:first-child){
-    margin-left: -1rem;
+.login .second-partie .avatars img:not(:first-child) {
+  margin-left: -1rem;
 }
-.login .second-partie .avatars img{
-    width: 45px;
-    height: 45px;
-    border-radius: 8rem;
-    border: 2px solid var(--white);
+.login .second-partie .avatars img {
+  width: 45px;
+  height: 45px;
+  border-radius: 8rem;
+  border: 2px solid var(--white);
 }
-.login .second-partie .para p{
-    margin-left: 15px;
-    font-weight: 500;
-    font-size: 17px;
-    color: var(--white);
+.login .second-partie .para p {
+  margin-left: 15px;
+  font-weight: 500;
+  font-size: 17px;
+  color: var(--white);
 }
-.login .second-partie .angle{
-    padding-bottom: 4rem;
+.login .second-partie .angle {
+  padding-bottom: 4rem;
 }
-.login .second-partie .ibank_care{
-    padding-top: 43px;
+.login .second-partie .ibank_care {
+  padding-top: 43px;
 }

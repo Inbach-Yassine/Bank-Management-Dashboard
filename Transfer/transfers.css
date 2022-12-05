@@ -1,25 +1,25 @@
 @import "/Admin-Manage/admin-manage.css";
 body {
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
-    font-family: "Poppins", sans-serif;
-    display: flex;
-    align-items: baseline;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: baseline;
 }
 .url-https .container-box {
   padding-bottom: 3px;
 }
 .url-https .parent-transfer {
-  padding-left:20px;
-  display: flex;  
-  column-gap:35px;
+  padding-left: 20px;
+  display: flex;
+  column-gap: 35px;
 }
-.url-https .parent-transfer h2{
-   font-weight: 600;
-    font-size: 20px;
-    color:#298097 ;
-    padding-bottom: 10px;
+.url-https .parent-transfer h2 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #298097;
+  padding-bottom: 10px;
 }
 .url-https .parent-transfer .groups {
   display: flex;
@@ -29,10 +29,10 @@ body {
 .url-https .content {
   padding: 35px 15px 24px 15px;
 }
-.url-https .parent-transfer .groups h3{
+.url-https .parent-transfer h3 {
   font-weight: 400;
-    font-size: 13px;
-    color: #919499;
+  font-size: 13px;
+  color: #919499;
 }
 .url-https form {
   padding: 0px 10px;
@@ -40,11 +40,11 @@ body {
 .url-https .content .list-information {
   row-gap: 23px;
 }
-.url-https .second-card{
+.url-https .second-card {
   margin-top: 2rem;
   max-width: 320px;
 }
-.url-https .second-card h3{
+.url-https .second-card h3 {
   font-weight: 400;
   font-size: 13px;
   color: #919499;
@@ -55,48 +55,48 @@ body {
   flex-wrap: wrap;
   row-gap: 15px;
   margin-top: 30px;
-  border: 2px solid #C4C4C480;
+  border: 2px solid #c4c4c480;
   border-radius: 20px;
   padding: 25px 10px;
 }
-.url-https .second-card .group p{
+.url-https .second-card .group p {
   font-size: 14px;
   color: var(--black);
   font-weight: 500;
   border-radius: 15px;
-  padding:10px;
-  background: #EFF2F266;
+  padding: 10px;
+  background: #eff2f266;
 }
-.url-https .second-card .group p:nth-child(3){
+.url-https .second-card .group p:nth-child(3) {
   background: var(--yellow);
   color: var(--white);
 }
-.url-https .second-card .group p:hover{
+.url-https .second-card .group p:hover {
   cursor: pointer;
   background: var(--yellow);
   color: var(--white);
 }
-.url-https .second-card .form{
+.url-https .second-card .form {
   display: flex;
   flex-direction: column;
   padding-top: 20px;
 }
-.url-https .second-card .form .input{
+.url-https .second-card .form .input {
   display: flex;
   align-items: center;
   column-gap: 10px;
   padding-bottom: 10px;
 }
-.url-https .second-card .form .input:nth-child(1){
+.url-https .second-card .form .input:nth-child(1) {
   flex-direction: column;
   align-items: initial;
 }
-.url-https .second-card .form .input label{
+.url-https .second-card .form .input label {
   font-size: 14px;
   font-weight: 500;
   padding-bottom: 10px;
 }
-.url-https .second-card .form .input input{
+.url-https .second-card .form .input input {
   padding: 10px 15px;
   outline: none;
   border: 1px solid var(--grey);
@@ -105,10 +105,10 @@ body {
 .url-https .second-card .form .input input::placeholder,
 .url-https .second-card .form .input input[type="text"] {
   color: var(--black);
-  font-size: 12px ;
+  font-size: 12px;
   font-weight: 500;
 }
-.url-https .second-card button{
+.url-https .second-card button {
   width: 100%;
   padding: 13px;
   border: none;

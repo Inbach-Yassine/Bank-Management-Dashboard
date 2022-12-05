@@ -91,7 +91,7 @@ body {
   border-radius: 10px;
   border: 1px solid var(--grey);
   background: var(--white);
-  cursor:pointer;
+  cursor: pointer;
 }
 .login .first-partie button a {
   font-size: 14px;
